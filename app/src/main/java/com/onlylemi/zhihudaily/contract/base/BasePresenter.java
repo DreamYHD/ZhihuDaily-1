@@ -9,4 +9,7 @@ package com.onlylemi.zhihudaily.contract.base;
 public interface BasePresenter {
 
     void start();
+    public void addSubscribe(Subscription subscription);
+
+    public void  unSubscribe();
 }
